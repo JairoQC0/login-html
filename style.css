@@ -1,0 +1,157 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #121212;
+      overflow: hidden;
+      position: relative;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(60px);
+      opacity: 0.15;
+      z-index: 0;
+    }
+
+    .circle1 {
+      width: 400px;
+      height: 400px;
+      background: #ff4ea1;
+      top: -100px;
+      left: -100px;
+    }
+
+    .circle2 {
+      width: 300px;
+      height: 300px;
+      background: #6d5eff;
+      bottom: -80px;
+      right: -80px;
+    }
+
+    .circle3 {
+      width: 200px;
+      height: 200px;
+      background: #4fd6ff;
+      top: 60%;
+      left: 60%;
+    }
+
+    .login-container {
+      background-color: #1e1e1e;
+      border: 2px solid #2a2a2a;
+      border-radius: 20px;
+      padding: 40px 30px;
+      width: 340px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .login-container h1 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #f0f0f0;
+    }
+
+    .login-container p {
+      font-size: 14px;
+      margin-bottom: 25px;
+      color: #bbb;
+    }
+
+    .input-group {
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .input-group label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+      color: #ccc;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 12px;
+      border: 1.5px solid #333;
+      border-radius: 10px;
+      background-color: #2b2b2b;
+      color: #f5f5f5;
+      font-size: 14px;
+      transition: border 0.3s, background-color 0.3s;
+    }
+
+    .input-group input:focus {
+      outline: none;
+      border-color: #9c5cff;
+      background-color: #3a3a3a;
+    }
+
+    .login-button {
+      background: linear-gradient(90deg, #e94b89, #9c5cff, #4f9dff);
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 12px;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .login-button:hover {
+      opacity: 0.9;
+    }
+
+    .google-button {
+        width: 100%;
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: #1f1f1f;
+      border: 1.5px solid #333;
+      padding: 10px;
+      border-radius: 12px;
+      font-size: 14px;
+      color: #ddd;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .google-button:hover {
+      background-color: #2a2a2a;
+    }
+
+    .google-button img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .footer-text {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #888;
+    }
+
+    .logo {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 20px;
+      border-radius: 50%;
+    }
